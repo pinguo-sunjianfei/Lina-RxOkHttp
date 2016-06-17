@@ -5,6 +5,8 @@
 用法：
 1.初始化 RxOkHttp.init(MyApplication.gContext, BuildConfig.DEBUG, new BaseParameterGenerator(), null);
 2.普通网络请求:
+
+```Java
     public Observable<String> request() {
         //1.创建Request
         HttpGsonRequest<String> mRefreshRequest = RequestBuilder.create(String.class)
@@ -27,3 +29,4 @@
                 .map(HttpResponse::getData)
                 .observeOn(AndroidSchedulers.mainThread());
     }
+```
