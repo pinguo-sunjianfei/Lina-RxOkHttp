@@ -25,6 +25,7 @@ RxOkHttp.init(MyApplication.gContext, BuildConfig.DEBUG, new BaseParameterGenera
                 .put("appid", "379020")
                 .put("bk_key", "关键字")
                 .put("bk_length", 600)
+                //文件
 //                .put("file",filePath)
 //                //自定义json解析器
 //                .parser(new CustomParser())
