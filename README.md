@@ -4,7 +4,12 @@
 
 用法：
 <br>
-1.初始化 RxOkHttp.init(MyApplication.gContext, BuildConfig.DEBUG, new BaseParameterGenerator(), null);
+1.初始化 
+
+```Java
+RxOkHttp.init(MyApplication.gContext, BuildConfig.DEBUG, new BaseParameterGenerator(), null);
+```
+
 <br>
 2.普通网络请求:
 
